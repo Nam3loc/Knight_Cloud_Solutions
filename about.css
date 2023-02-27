@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 60px;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 65px;
+}
+
+.bryant-pic {
+    width: 30vw;
+    height: 60vh;
+
+    border-radius: 50%;
+}
+
+/* Media Queries for Width of picture sizing */
+
+@media screen and (max-width: 2600px) {
+    .bryant-pic {
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 1800px) {
+    .bryant-pic {
+        width: 40vw;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .bryant-pic {
+        width: 40vw;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .bryant-pic {
+        width: 50vw;
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .bryant-pic {
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .bryant-pic {
+        width: 70vw;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .bryant-pic {
+        width: 80vw;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .bryant-pic {
+        width: 80vw;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .bryant-pic {
+        width: 50vw;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .bryant-pic {
+        width: 85vw;
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .bryant-pic {
+        width: 90vw;
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width: 281px) {
+    .bryant-pic {
+        width: 90vw;
+        height: 40vh;
+    }
+}
+
+/* Media Queries for Height of picture sizing */
+
+@media screen and (max-height: 1369px) {
+    .bryant-pic {
+        height: 60vh;
+    }
+}
+
+@media screen and (max-height: 1200px) {
+    .bryant-pic {
+        height: 70vh;
+    }
+}
+
+@media screen and (max-height: 915px) {
+    .bryant-pic {
+        height: 60vh;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    .bryant-pic {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-height: 601px) {
+    .bryant-pic {
+        height: 70vh;
+    }
+}
+
+.bry-pic-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* About Description */
+
+.about-section {
+    text-align: center;
+
+    padding: 0 70px 0 70px;
+}
+
+.about-section > p {
+    font-size: 1.2em;
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    color: white;
+
+    width: 100vw;
+    height: 100px;
+
+    text-align: center;
+}
+
+.footer-logo {
+    margin-top: 10px;
+
+    width: 50px;
+    height: 50px;
+}
+
+.footer-logo:hover {
+    border: 1px solid white;
+}

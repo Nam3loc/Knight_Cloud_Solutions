@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="#"> <!-- Chrome Tab icon -->
+    <!-- Chrome Tab icon -->
+    <link rel="icon" type="image/x-icon" href="./public/logo/chrome_tab_logo.jpg">
 
     <!-- CSS -->
     <link rel="stylesheet" href="./index.css">
@@ -31,7 +32,7 @@
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navbar</h5>
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigation</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
@@ -40,10 +41,10 @@
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="About.html">About</a>
+                            <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Contact.html">Connect</a>
+                            <a class="nav-link" href="contact.html">Connect</a>
                         </li>
                     </ul>
                 </div>
@@ -52,17 +53,16 @@
     </nav>
 
     <main>
-        <!-- Added this to wrap around the content -->
-        <!-- Title -->
-        <header>
-            <h1>Knight Cloud Solutions</h1>
-        </header>
+        <!-- Company Logo -->
+        <div id="main-logo-wrapper">
+            <img class="main-logo" src="./public/logo/bluebkgnd_logo.jpg" alt="Knight Cloud Solutions Logo" >
+        </div>
 
         <!-- Mission Statement -->
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, aliquid, voluptatum facilis ipsum
-                mollitia vel laudantium quisquam assumenda magnam aspernatur beatae doloremque sequi magni ex
-                voluptatibus eveniet molestias praesentium commodi?</p>
+        <div class="statement-wrapper">
+            <p>
+                Not really sure if you want text here or what but it is a filler for now
+            </p>
         </div>
 
 
@@ -70,7 +70,8 @@
 
     <!-- Footer -->
     <div class="footer">
-        <a href="#" target="_blank"><img src="./Icons/icons8-instagram-logo-48.png" alt="Instagram Logo"></a>
+        <a href="https://bmwitcher.medium.com/" target="_blank"><img class="footer-logo" src="./public/logo/icons8-medium-50.png" alt="Medium Logo"></a>
+        <a href="https://www.linkedin.com/in/bmwitcher/" target="_blank"><img class="footer-logo" src="./public/logo/icons8-linkedin-circled-50.png" alt="LinkedIn Logo"></a>
         <p>&copy;&nbsp2023 Knight Cloud Solutions</p>
     </div>
 
