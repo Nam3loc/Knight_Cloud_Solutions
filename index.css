@@ -8,10 +8,32 @@ nav {
     height: 60px;
 }
 
+.container-fluid > a {
+    color: white;
+}
+
+/* Logo in the Navbar */
+
+.logo-in-nav {
+    margin: 0 auto;
+    border-radius: 8px;
+
+    width: 20px;
+    height: 20px;
+}
+
+main {
+    margin: 60px 0 100px 0;
+
+    width: 100vw;
+    height: 100vh;
+}
+
 /* Knight Cloud Solutions Image */
 .main-logo {
-    width: 80vw;
-    height: 80vh;
+    width: 100vw;
+    height: calc(100vh - 160px);
+    object-fit: fill;
 }
 
 #main-logo-wrapper {
@@ -25,6 +47,10 @@ nav {
     text-align: center;
 
     margin-top: 20px;
+}
+
+.statement-wrapper > p {
+    color: white;
 }
 
 /* Footer */
